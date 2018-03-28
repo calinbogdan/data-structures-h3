@@ -9,5 +9,6 @@ class DirectedGraph
 
 	public:
 		DirectedGraph(int numberOfVertices);
+		void create_edge(int from, int to);
 };
 
